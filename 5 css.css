@@ -1,0 +1,73 @@
+student {
+    font-size: 16px;
+    color: red;
+    background-color: green;
+    text-align: center;
+}
+
+head {
+    font-family: Arial;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+
+student1 {
+    background-color: silver;
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+student2 {
+    background-color: teal;
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+student3 {
+    background-color: purple;
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+usn {
+    font-family: Courier;
+    color: lime;
+    font-size: 24px;
+    text-align: center;
+}
+
+name {
+    font-family: "Times New Roman";
+    color: red;
+    font-size: 32px;
+    text-align: center;
+}
+
+college-name {
+    color: aqua;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+branch {
+    font-style: italic;
+    text-align: center;
+}
+
+joining-year {
+    color: maroon;
+    display: block;
+    text-align: center;
+}
+
+email-id {
+    color: navy;
+    text-align: center;
+}

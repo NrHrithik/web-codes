@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Functions Program 4</title>
+ <h3> ASHWITHA 4JK20IS013</h3>
+  <script type="text/javascript">
+    // Function to find the leftmost vowel
+    function findLeftmostVowel(str) {
+      var len = str.length;
+      var i;
+
+      for (i = 0; i < len; i++) {
+        var ch = str.substr(i, 1);
+
+        if (
+          ch === 'a' ||
+          ch === 'e' ||
+          ch === 'i' ||
+          ch === 'o' ||
+          ch === 'u' ||
+          ch === 'A' ||
+          ch === 'E' ||
+          ch === 'I' ||
+          ch === 'O' ||
+          ch === 'U'
+        ) {
+          document.write(
+            "<br>Leftmost vowel of '" +
+              str +
+              "' is '" +
+              ch +
+              "' at position: " +
+              (i + 1)
+          );
+
+          break;
+        }
+      }
+    }
+
+    // Function to find the reverse of a number
+    function reverseNumber(num) {
+      var org = num;
+      var rev = 0;
+
+      while (num !== 0) {
+        rev = rev * 10 + num % 10;
+        num = parseInt(num / 10);
+      }
+
+      document.write("<br><br>Reverse of the number " + org + " is " + rev);
+    }
+
+    var string = prompt("Enter a string:");
+    findLeftmostVowel(string);
+
+    var number = prompt("Enter a number:");
+    number = parseInt(number);
+    reverseNumber(number);
+  </script>
+</head>
+
+<body>
+</body>
+</html>

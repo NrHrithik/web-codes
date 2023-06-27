@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Squares and Cubes</title>
+  <style>
+    h2 {
+      text-align: center;
+      color: blue;
+      background-color: lightgray;
+      padding: 10px;
+    }
+    
+    th {
+      background-color: lightblue;
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div style="display: flex;">
+    <div style="flex: 1;"></div>
+    <div style="flex: 1;">
+      <h2>Squares and Cubes of Numbers from 1 to 10</h2>
+      <p style= text align="center"><strong> MAYOORI P 4JK20IS028</strong>.</p>
+      <table border="1" align="center">
+        <tr>
+          <th>Square</th>
+          <th>Cube</th>
+        </tr>
+        <script type="text/javascript">
+          for (var n = 1; n <= 10; n++) {
+            document.write("<tr>");
+            document.write("<td>" + n * n + "</td>");
+            document.write("<td>" + n * n * n + "</td>");
+            document.write("</tr>");
+          }
+        </script>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

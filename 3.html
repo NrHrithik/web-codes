@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TEXT GROWING...SHRINKING</title>
+<script type="text/javascript">
+  function f2() {
+    var str = "TEXT SHRINKING";
+    var result = str.fontcolor("blue");
+    document.getElementById("demo1").innerHTML = result;
+    resizeText(-1);
+  }
+
+  function f1() {
+    var str = "TEXT GROWING";
+    var result = str.fontcolor("red");
+    document.getElementById("demo1").innerHTML = result;
+    resizeText(1);
+  }
+
+  function resizeText(mul) {
+    if (document.getElementById('demo1').style.fontSize === "") {
+      document.getElementById('demo1').style.fontSize = "1px";
+    }
+    else {
+      if (document.getElementById('demo1').style.fontSize === "50px" && mul === 1) {
+        clearInterval(ref);
+        ref2 = setInterval("f2()", 50);
+      }
+      else if (document.getElementById('demo1').style.fontSize === "5px" && mul === -1) {
+        clearInterval(ref2);
+      }
+
+      document.getElementById('demo1').style.fontSize = parseInt(document.getElementById('demo1').style.fontSize) + mul + "px";
+    }
+  }
+
+  ref = setInterval("f1()", 100);
+</script>
+</head>
+<body>
+<h3> ASHWITHA 4JK20IS013</h3>
+Welcome to the world of JavaScript
+<hr>
+<p id="demo1"></p>
+</body>
+</html>

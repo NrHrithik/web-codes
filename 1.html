@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  h3
+   {
+    color: grey;
+  }
+  
+  input[type="text"] 
+  {
+    background-color: grey;
+    color: white;
+  }
+  
+  .button 
+  {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+</style>
+<script type="text/javascript">
+  var a, b, result;
+
+  function setValues() 
+  {
+    a = Number(document.getElementById("a").value);
+    b = Number(document.getElementById("b").value);
+  }
+
+  function clearInput()
+   {
+    document.getElementById("a").value = "";
+    document.getElementById("b").value = "";
+  }
+
+  function add()
+   {
+    setValues();
+    result = a + b;
+    alert("The sum = " + result);
+    clearInput();
+  }
+
+  function sub()
+   {
+    setValues();
+    result = a - b;
+    alert("The difference = " + result);
+    clearInput();
+  }
+
+  function mul()
+   {
+    setValues();
+    result = a * b;
+    alert("The product = " + result);
+    clearInput();
+  }
+
+  function div()
+   {
+    setValues();
+    result = a / b;
+    alert("The quotient = " + result);
+    clearInput();
+  }
+</script>
+</head>
+<body>  
+  <h3>4JK20IS020</h3>
+  <input id="a" type="text" />
+  <br/>
+  <input id="b" type="text">
+  <br/>
+  <input class="button" type="button" onclick="add()" value="Sum" />
+  <input class="button" type="button" onclick="sub()" value="Difference" />
+  <input class="button" type="button" onclick="mul()" value="Product" />
+  <input class="button" type="button" onclick="div()" value="Quotient" />
+</body>
+</html>

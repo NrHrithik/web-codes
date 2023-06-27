@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pgm5.css" type="text/css" ?>
+<!DOCTYPE HTML>
+<html>
+
+<student>
+
+    <student1>
+        <head>Student1</head>
+        <usn>4JK15IS023</usn>
+        <name>MAYOORI P</name>
+        <college-name>AJ Engineering college</college-name>
+        <branch>Information Science</branch>
+        <joining-year>Joining Year 2020</joining-year>
+        <email-id>mayoorimunnuraya11@gmail.com</email-id>
+    </student1>
+
+    <student2>
+        <head>Student2</head>
+        <usn>4JK15IS029</usn>
+        <name>JAMES</name>
+        <college-name>AJ Engineering college</college-name>
+        <branch>Information Science</branch>
+        <joining-year>Joining Year 2020</joining-year>
+        <email-id>james@yahoo.com</email-id>
+    </student2>
+
+    <student3>
+        <head>Student3</head>
+        <usn>4JK15IS030</usn>
+        <name>Henry</name>
+        <college-name>AJ Engineering college</college-name>
+        <branch>Information Science</branch>
+        <joining-year>Joining Year 2020</joining-year>
+        <email-id>henry@yahoo.com</email-id>
+    </student3>
+
+</student>
+</html>
